@@ -1,38 +1,8 @@
-* {
-  margin: 0;
-}
-
-.App {
-  /* text-align: center; */
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  /* background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; */
-  height: 75px;
-  background-color: #e5e5e5;
-}
-
-.App-header > .menu-header {
-  text-align: right;
-  font-size: 18px;
+.action {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  text-transform: uppercase;
+  font-size: 14px;
   color: #707070;
-  line-height: 75px;
-}
-
-.App-link {
-  color: #09d3ac;
+  text-decoration: none;
+  text-transform: uppercase;
 }
