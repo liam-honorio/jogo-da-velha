@@ -1,9 +1,16 @@
 import React from 'react';
-import Header from './components/Header'
+import Card from './objects/Card';
+import Player from './objects/Player';
+import Header from './components/Header';
+
+
 function App() {
   return (
-    <Header />
-    
+    <>
+      <Header />
+      <Card />
+      <Player />
+    </>
   );
 }
 
