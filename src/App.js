@@ -1,17 +1,19 @@
 import React from 'react';
-import Card from './objects/Card';
-import Player from './objects/Player';
+import './App.css'
+import Label from './objects/Label'
+import Input from './objects/Input';
 import Header from './components/Header';
+import Hashtag from './components/Hashtag';
 
 
-function App() {
-  return (
-    <>
+
+const App = () => (
+    <main className="app">
       <Header />
-      <Card />
-      <Player />
-    </>
+      <Hashtag />
+      <Input content="show" />
+      <Label content ="Mostrar eventos"/>
+    </main>
   );
-}
 
 export default App;
