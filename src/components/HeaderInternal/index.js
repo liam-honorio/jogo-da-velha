@@ -10,7 +10,6 @@ const HeaderInternal = () => (
     <LogoCollab light />
     <AboutLink className="-light" />
     <IconClose />
-
   </header>
 );
 
