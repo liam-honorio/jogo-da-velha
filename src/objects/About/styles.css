@@ -9,5 +9,5 @@
 }
 
 .about > .header-internal {
-  margin-bottom: var(--size-very-big);
+  margin-bottom: var(--spacing-very-big);
 }
