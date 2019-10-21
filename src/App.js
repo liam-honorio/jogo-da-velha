@@ -23,7 +23,7 @@ const App = () => (
       <Checkbox id="show" value="show" type="checkbox" content="Mostrar eventos" />
       
       <About>
-        <LogoCollab />
+        <LogoCollab light />
         <AboutLink className="-light" />
         <IconClose /> 
       </About>
