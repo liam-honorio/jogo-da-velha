@@ -1,4 +1,4 @@
-.about {
+.layer-dark {
   background-color: var(--color-negative);
   display: block;
   width: 100vw;
@@ -6,8 +6,14 @@
   position: absolute;
   top: 0;
   left: 0;
+  transform: translateX(100%);
+  transition: transform 200ms linear;
 }
 
-.about > .header-internal {
+.layer-dark.-active {
+  transform: translateX(0);
+}
+
+.layer-dark > .header-internal {
   margin-bottom: var(--spacing-very-big);
 }

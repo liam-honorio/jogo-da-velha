@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css'
 
 
 import Checkbox from './objects/Checkbox';
-import About from './objects/About';
+import LayerDark from './objects/LayerDark';
 
 import Header from './components/Header';
 import Hashtag from './components/Hashtag';
@@ -17,19 +17,25 @@ import ProfileUser from './components/ProfileUser';
 
 
 
-const App = () => (
+const App = () => {
+  let [activeLayerDark, setActiveLayerDark] = useState(""); 
+  const handleClickAdd= () => setActiveLayerDark("-active");
+  const handleClickRemove= () => setActiveLayerDark("");
+  
+  return(
     <main className="app">
-      <Header />
+      <Header onClick={handleClickAdd} />
       <Hashtag />
       <Checkbox id="show" value="show" type="checkbox" content="Mostrar eventos" />
       
-      <About>
-        <HeaderInternal />
+      <LayerDark className={activeLayerDark}>
+        <HeaderInternal onClick={handleClickRemove}/>
 
         <ProfileUser />
-      </About>
+      </LayerDark>
       
     </main>
   );
+}
 
 export default App;
