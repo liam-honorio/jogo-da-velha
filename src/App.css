@@ -2,12 +2,12 @@
   text-align: center;
 }
 
-.app > .header {
+.app > .header-game {
   margin: 0 auto 85px;
   width: 80vw;
 }
 
-.app > .card {
+.app > .card-game {
   display: inline-block;
   box-sizing: border-box;
   width: 90vw;

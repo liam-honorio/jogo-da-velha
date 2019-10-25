@@ -1,11 +1,11 @@
 import React from 'react';
 import './styles.css';
 
-const Menu = ({ onClick }) => (<a href="#to-do" 
-                      className="menu"
+const MenuGame = ({ onClick }) => (<a href="#to-do" 
+                      className="menu-game"
                       onClick={onClick}
                     >
                       <span className="center">Menu</span>
                     </a>);
 
-export default Menu;
+export default MenuGame;
