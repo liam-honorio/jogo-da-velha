@@ -1,2 +1,10 @@
-tag-game {
+.tag-game {
+  display: block;
+  width: 127px;
+  height: 27px;
+  border-radius: 2em;
+  background-color: var(--color-zero);
+  line-height: 27px;
+  color: var(--color-negative);
+  font-size: var(--size-small);
 }
