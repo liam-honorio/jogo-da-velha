@@ -17,7 +17,7 @@ const ProfileUser = () => (
     <dd className="avatar">
       <AvatarProfile src={Profile} alt="Avatar do William" />
     </dd>
-    <dt className="titulo">William Honorio</dt>
+    <dt className="title">William Honorio</dt>
     <dd className="description">Migrei de palhaço para Dev. Front-End/UX e agora eu trabalho como streamer de código, instrutor e dev na CollabCode</dd>
     <dd className="socials">
       <IconSocial action="https://github.com/liam-honorio/" src={GitHub} alt="Logo do GitHub" />
