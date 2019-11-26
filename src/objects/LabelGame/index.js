@@ -1,8 +1,10 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
 
-const LabelGame = ({ htmlFor, content }) => (
-  <label htmlFor={htmlFor} className="label-game">{content}</label>
+const LabelGame = ({ htmlFor, content, onClick }) => (
+  <label htmlFor={htmlFor} className="label-game" onClick={onClick}>
+    {content}
+  </label>
 );
 
 export default LabelGame;
