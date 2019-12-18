@@ -1,12 +1,16 @@
-import React from 'react';
-import './styles.css';
-import TagGame from '../../objects/TagGame';
+import React from "react";
+import "./styles.css";
+import TagGame from "../../objects/TagGame";
 
-const HistoryGame = ({history}) => (
+const changeHistory = () => console.log("clicou");
+
+const HistoryGame = ({ history }) => (
   <ol className="history-game">
-   {history.map((content, key) => <li key={key} className="action">
-      <TagGame className="action" content={content}/>
-    </li>)}
+    {history.map((content, key) => (
+      <li key={key} className="action" onClick={changeHistory}>
+        <TagGame className="action" content={content} />
+      </li>
+    ))}
   </ol>
 );
 
