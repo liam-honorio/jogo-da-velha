@@ -2,6 +2,7 @@
   background-color: var(--color-zero);
   border-radius: 2em;
   padding: var(--spacing-very-small) var(--spacing-small);
+  cursor: pointer;
 }
 
 .tag-game.-end {
